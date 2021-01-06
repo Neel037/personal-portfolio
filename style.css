@@ -96,6 +96,74 @@ section{
     padding-top: 100px;
 }
 
+.skills-section{
+    background-color:#E5E5E5;
+}
+
+.skills{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.skills ul{
+    list-style: none;
+    
+}
+
+.skills ul li{
+    background-color: white;
+    border-radius: 10px;
+    
+    
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: salmon;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.html h5{
+    width: 94%;
+    
+}
+
+.css h5{
+    width:85%;
+}
+
+.bootstrap h5{
+    width:60%;
+}
+
+.javascript h5{
+    width:80%;
+}
+
+.php h5{
+    width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .project{
     background-color:#E5E5E5;
 }
@@ -133,41 +201,39 @@ section{
 
 
 
-.chat-box{
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 100px;
+
+.work-inquiry-section{
+    height: 200px;
+    background-image: url(images/chat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    margin: 100px 0;
 }
-.chat-box img{
-    width: 100%;
+.inquiry-section{
+ padding-top: 10px;
     
 }
-.inquery-btn{
-    position: absolute;
-    left: 8%;
-    top: 7%;
-}
-
-.inquery-btn h2{
+.inquiry-section h2{
     color: white;
+    display: inline-block;
+    padding-left: 250px;
 }
-
-.text{
-    width: 80px;
+.inquiry-section a{
+    text-decoration: none;
+    float:right;
     background: linear-gradient(45deg, tomato, salmon);
     padding: 20px 15px;
     border-radius: 5px;
     color: white;
+    margin-right: 200px;
+    margin-top: 50px;
+
 }
 
-.chat-btn{
-    text-align: center;
-    position: absolute;
-    right: 8%;
-    bottom: 30%;
-    
-}
+
+
+
 
 footer{
     text-align: center;
